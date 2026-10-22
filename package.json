@@ -1,0 +1,21 @@
+{
+  "name": "git-prueba01",
+  "version": "1.0.0",
+  "description": "quiero probar conexión de git",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannychoucair/git-prueba01.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dannychoucair/git-prueba01/issues"
+  },
+  "homepage": "https://github.com/dannychoucair/git-prueba01#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
