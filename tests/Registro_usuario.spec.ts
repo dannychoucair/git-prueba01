@@ -21,7 +21,7 @@ test(' registro nuevo usuario' , async ({page}) =>{
     //llenar campos 
     await page.getByRole('textbox', { name: 'First name:' }).fill('lucas');
     await page.getByRole('textbox', { name: 'Last name:' }).fill('camacho');
-    await page.getByRole('textbox', { name: 'Email:' }).fill('bowaho4721@goldvester.com');
+    await page.getByRole('textbox', { name: 'Email:' }).fill('xeyeje3703@goldvester.com');
     await page.getByRole('textbox', { name: 'Password:', exact: true }).fill('123456');
     await page.getByRole('textbox', { name: 'Confirm password:' }).fill('123456');
     await page.getByRole('button', { name: 'Register' }).click();
